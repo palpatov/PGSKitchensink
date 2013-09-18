@@ -43,6 +43,7 @@
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />-->
 	
+	<!--
 	<gap:plugin name="Accelerometer" value="org.apache.cordova.AccelListener" />
 	<gap:plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
 	<gap:plugin name="Capture" value="org.apache.cordova.Capture"/>
@@ -60,10 +61,11 @@
 	<gap:plugin name="Notification" value="org.apache.cordova.Notification"/>
 	<gap:plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
 	<gap:plugin name="Storage" value="org.apache.cordova.Storage" />
+	-->
 	
-	<gap:plugin name="BarcodeScanner" /> <!-- latest release -->
-	<gap:plugin name="Analytics" /> <!-- latest release -->
-	<gap:plugin name="GenericPush" /> <!-- latest release -->
+	<!--<gap:plugin name="BarcodeScanner" />--> <!-- latest release -->
+	<!--<gap:plugin name="Analytics" />--> <!-- latest release -->
+	<!--<gap:plugin name="GenericPush" />--> <!-- latest release -->
 	
 	<access origin="*" />
 
